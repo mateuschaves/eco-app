@@ -7,7 +7,7 @@ export const Container = styled.View`
 `;
 
 export const Title = styled.Text`
-  font-size: 34px;
+  font-size: ${props => (`${props.fontSize}` || '34px')};
   color: #707070;
   font-weight: bold;
   margin-top: 60px;
