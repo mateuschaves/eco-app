@@ -13,14 +13,16 @@ export const Title = styled.Text`
   color: #FFFFFF;
   font-weight: bold;
   margin-left: 15px;
-  margin-top: 15px;
+  margin-top: 8px;
   margin-bottom: 6px;
 `;
 
 export const Image = styled.Image`
-  height: 169.62px;
-  width: 62.77px;
-  margin-left: -7px;
+  height: 113px;
+  width: 45px;
+  margin-top: 55px;
+  align-self: flex-end;
+
 `;
 
 

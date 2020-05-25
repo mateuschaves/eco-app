@@ -1,11 +1,12 @@
 import React from 'react';
 
-import { StatusBar, ScrollView } from 'react-native';
+import { StatusBar } from 'react-native';
 
 import SearchInput from '~/components/SearchInput';
 import PlasticCard from '~/components/PlasticCard';
+import MetalCard from '~/components/MetalCard';
 
-import { Container, Title } from './styles';
+import { Container, Title, Cards } from './styles';
 
 export default function Main() {
 
@@ -29,9 +30,22 @@ export default function Main() {
         Choose a category
       </Title>
 
-      <ScrollView>
+      <Cards
+        horizontal
+        showsHorizontalScrollIndicator={false}
+      >
         <PlasticCard />
-      </ScrollView>
+        <MetalCard />
+        <MetalCard />
+        <MetalCard />
+        <MetalCard />
+        <MetalCard />
+        <MetalCard />
+        <MetalCard />
+        <MetalCard />
+        <MetalCard />
+        <MetalCard />
+      </Cards>
     </Container>
   )
 }

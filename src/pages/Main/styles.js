@@ -12,3 +12,7 @@ export const Title = styled.Text`
   font-weight: bold;
   margin-top: 60px;
 `;
+
+export const Cards = styled.ScrollView`
+  height: 210px;
+`;
