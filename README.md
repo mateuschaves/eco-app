@@ -1,4 +1,4 @@
-# Eco App
+# :recycle: Eco App
 
 Challenge of implementing the interface developed in [Adobe XD](https://xd.adobe.com/view/d401833f-9a9e-4d97-7395-228108561af0-a230/screen/64ebd010-e860-4428-b1ac-7908231a320f/Eco)
 
