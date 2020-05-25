@@ -5,6 +5,7 @@ import { StatusBar } from 'react-native';
 import SearchInput from '~/components/SearchInput';
 import PlasticCard from '~/components/PlasticCard';
 import MetalCard from '~/components/MetalCard';
+import GlassCard from '~/components/GlassCard';
 
 import { Container, Title, Cards } from './styles';
 
@@ -36,15 +37,7 @@ export default function Main() {
       >
         <PlasticCard />
         <MetalCard />
-        <MetalCard />
-        <MetalCard />
-        <MetalCard />
-        <MetalCard />
-        <MetalCard />
-        <MetalCard />
-        <MetalCard />
-        <MetalCard />
-        <MetalCard />
+        <GlassCard />
       </Cards>
     </Container>
   )
